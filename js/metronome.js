@@ -202,7 +202,7 @@ function addPreset(lable) {
   play.setAttribute("type", "button");
   play.value = "Play";
   play.setAttribute("onclick",
-      "preset(document.getElementById('" + randId + "').value,'" + lable + "');");
+      "preset(document.getElementById('" + randId + "').value,'" + lable + "' );");
 
   preset.appendChild(song);
   preset.appendChild(tempo);
